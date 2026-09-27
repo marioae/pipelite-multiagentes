@@ -1,0 +1,30 @@
+{
+  "_nota": "Track B — clasificaciones producidas orquestando el Agente 2 turno por turno en el chat, razonando UNICAMENTE sobre texto_anonimizado. El clasificador nunca recibio nombre, cedula, direccion ni telefono.",
+  "PAC-001": {
+    "enfermedad_probable": "hipertensión arterial estadio 2 (por confirmar)",
+    "nivel_riesgo": "medio",
+    "comportamiento_observado": "Presión arterial de 158/96 mmHg con cefalea ocasional, mareos y sensación de presión cefálica de 2 semanas; frecuencia cardíaca 82 lpm. El antecedente paterno de hipertensión y el tabaquismo activo refuerzan la sospecha. La confianza es media y no alta porque hay una sola toma registrada: el diagnóstico exige confirmar cifras elevadas en mediciones repetidas. Riesgo medio por la cifra en rango de estadio 2 sumada al tabaquismo, sin signos de daño agudo de órgano.",
+    "confianza": "media",
+    "antecedentes": "padre con hipertensión arterial",
+    "fuma": "Sí",
+    "consumo_sustancias": "No"
+  },
+  "PAC-002": {
+    "enfermedad_probable": "infección urinaria baja (cistitis)",
+    "nivel_riesgo": "bajo",
+    "comportamiento_observado": "Disuria, polaquiuria y dolor leve en hipogastrio de 3 días, con examen de orina que muestra leucocitos 25-30 por campo y nitritos positivos, hallazgos concordantes con infección bacteriana. No se describen fiebre ni dolor lumbar, por lo que no hay datos de compromiso renal. Riesgo bajo; el episodio previo hace un año no configura aún infección recurrente.",
+    "confianza": "alta",
+    "antecedentes": "infección urinaria previa hace aproximadamente 1 año",
+    "fuma": "No",
+    "consumo_sustancias": "No"
+  },
+  "PAC-003": {
+    "enfermedad_probable": "diabetes mellitus tipo 2",
+    "nivel_riesgo": "medio",
+    "comportamiento_observado": "Glucemia en ayunas de 186 mg/dL y HbA1c de 8,2 %, ambas por encima del umbral diagnóstico, con polidipsia, poliuria y cansancio de 1 mes. El antecedente materno de diabetes tipo 2 es concordante. Riesgo medio: hiperglucemia establecida con control deficiente, sin signos de descompensación aguda en el texto.",
+    "confianza": "alta",
+    "antecedentes": "madre con diabetes mellitus tipo 2",
+    "fuma": "No",
+    "consumo_sustancias": "No"
+  }
+}

@@ -1,0 +1,4 @@
+data/internal/
+.env
+__pycache__/
+*.pyc

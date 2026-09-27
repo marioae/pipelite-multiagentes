@@ -1,0 +1,111 @@
+{
+  "_nota": "Track B — clasificacion propia de las 12 historias de clase, razonando UNICAMENTE sobre texto_anonimizado. Sirve como corrida de contraste contra el oraculo de referencia (seccion 10.1 del documento de arquitectura). Las divergencias respecto al oraculo estan documentadas en evidencias/comparacion_con_oraculo.md.",
+  "PAC-001": {
+    "enfermedad_probable": "diabetes mellitus tipo 2",
+    "nivel_riesgo": "medio",
+    "comportamiento_observado": "Glucemia en ayunas de 182 mg/dL, muy por encima del umbral diagnóstico, acompañada de fatiga persistente y polidipsia de 3 meses. El antecedente materno de diabetes tipo 2 refuerza la probabilidad. Riesgo medio: hay hiperglucemia establecida pero ningún signo de complicación aguda en el texto.",
+    "confianza": "alta",
+    "antecedentes": "antecedente materno de diabetes tipo 2",
+    "fuma": "No",
+    "consumo_sustancias": "No"
+  },
+  "PAC-002": {
+    "enfermedad_probable": "enfermedad pulmonar obstructiva crónica",
+    "nivel_riesgo": "medio",
+    "comportamiento_observado": "Espirometría compatible con obstrucción moderada en un fumador activo de 20 cigarrillos/día durante 30 años, con tos crónica y disnea de esfuerzo. La carga tabáquica y el hallazgo funcional sustentan el diagnóstico. Riesgo medio por obstrucción moderada, sin exacerbación aguda descrita.",
+    "confianza": "alta",
+    "antecedentes": "hipertensión arterial controlada con losartán",
+    "fuma": "Sí",
+    "consumo_sustancias": "No"
+  },
+  "PAC-003": {
+    "enfermedad_probable": "indeterminado",
+    "nivel_riesgo": "bajo",
+    "comportamiento_observado": "Hay tristeza persistente, anhedonia e insomnio de 6 semanas tras una ruptura de pareja, lo que cumple el criterio temporal de un episodio depresivo. Sin embargo, falta lo necesario para afirmarlo: no hay escala de severidad aplicada, no se documenta evaluación de riesgo suicida, y no se ha descartado una reacción adaptativa al evento desencadenante. Se declara indeterminado en vez de forzar un diagnóstico de salud mental sin evaluación estructurada.",
+    "confianza": "baja",
+    "antecedentes": "ninguno registrado",
+    "fuma": "No",
+    "consumo_sustancias": "No"
+  },
+  "PAC-004": {
+    "enfermedad_probable": "indeterminado",
+    "nivel_riesgo": "medio",
+    "comportamiento_observado": "Los episodios de palpitaciones, sudoración y sensación de muerte inminente sugieren crisis de angustia, pero no se puede afirmar sin descartar causa orgánica: falta electrocardiograma, perfil tiroideo y tamizaje toxicológico. El antecedente de consumo recreativo de cocaína, aunque referido como en abstinencia, es precisamente lo que obliga a no cerrar el diagnóstico sin esos estudios. Riesgo medio por esa incertidumbre etiológica.",
+    "confianza": "baja",
+    "antecedentes": "consumo recreativo previo de cocaína, referido en abstinencia hace más de un año",
+    "fuma": "Sí",
+    "consumo_sustancias": "Sí"
+  },
+  "PAC-005": {
+    "enfermedad_probable": "hipertensión arterial no controlada",
+    "nivel_riesgo": "alto",
+    "comportamiento_observado": "Cifras de 162/98 mmHg pese a estar bajo tratamiento, en un paciente de 68 años con infarto agudo de miocardio hace 5 años. El riesgo se califica alto, no medio: la combinación de enfermedad cardiovascular establecida y control tensional inadecuado sitúa a este paciente en prevención secundaria con la meta terapéutica incumplida.",
+    "confianza": "alta",
+    "antecedentes": "infarto agudo de miocardio hace 5 años",
+    "fuma": "No",
+    "consumo_sustancias": "No"
+  },
+  "PAC-006": {
+    "enfermedad_probable": "indeterminado",
+    "nivel_riesgo": "medio",
+    "comportamiento_observado": "La rigidez matutina de más de una hora con compromiso de rodillas y manos orienta a artritis inflamatoria, pero la evidencia es insuficiente para nombrar la entidad: solo 2 semanas de evolución, sin reactantes de fase aguda, sin factor reumatoide ni anti-CCP, y sin estudio de imagen. El propio texto señala que el paciente no se ha hecho revisión médica en años. Se declara indeterminado en lugar de afirmar artritis reumatoide sin respaldo serológico.",
+    "confianza": "baja",
+    "antecedentes": "ninguno registrado",
+    "fuma": "No",
+    "consumo_sustancias": "No"
+  },
+  "PAC-007": {
+    "enfermedad_probable": "migraña",
+    "nivel_riesgo": "bajo",
+    "comportamiento_observado": "Cefalea pulsátil unilateral recurrente con náuseas y fotofobia: los criterios clínicos clásicos están completos, y el antecedente materno de migraña apoya el diagnóstico. La frecuencia de hasta 3 episodios semanales es relevante para el manejo. Se registra además un consumo elevado de cafeína, más de 5 tazas diarias, que puede actuar como factor perpetuante.",
+    "confianza": "alta",
+    "antecedentes": "antecedente de migraña en la madre; consumo elevado de cafeína",
+    "fuma": "No",
+    "consumo_sustancias": "No"
+  },
+  "PAC-008": {
+    "enfermedad_probable": "indeterminado",
+    "nivel_riesgo": "bajo",
+    "comportamiento_observado": "Insomnio de conciliación y mantenimiento de 2 meses que coincide con un aumento de carga laboral. No se puede distinguir un trastorno de insomnio primario de un insomnio secundario a estrés o al consumo de alcohol 3-4 veces por semana, que es en sí mismo un disruptor del sueño. Faltan un diario de sueño y una escala validada para cerrar el diagnóstico.",
+    "confianza": "baja",
+    "antecedentes": "ninguno registrado",
+    "fuma": "Sí",
+    "consumo_sustancias": "Sí"
+  },
+  "PAC-009": {
+    "enfermedad_probable": "asma mal controlada",
+    "nivel_riesgo": "medio",
+    "comportamiento_observado": "Asma diagnosticada en la infancia, hoy con dificultad respiratoria progresiva y sibilancias, descrita explícitamente como mal controlada. El diagnóstico de base ya está establecido, por lo que la incertidumbre es baja. Un factor que condiciona el pronóstico y no es clínico: la paciente refiere dificultad para costear los inhaladores, lo que compromete directamente la adherencia.",
+    "confianza": "alta",
+    "antecedentes": "asma diagnosticada en la infancia; barrera económica de acceso a inhaladores",
+    "fuma": "No",
+    "consumo_sustancias": "No"
+  },
+  "PAC-010": {
+    "enfermedad_probable": "indeterminado",
+    "nivel_riesgo": "bajo",
+    "comportamiento_observado": "El patrón descrito —ansiedad en situaciones sociales, evitación de reuniones, rechazo de ascensos por temor a hablar en público, con inicio en la adolescencia— es sugestivo de trastorno de ansiedad social y tiene claro impacto funcional. Aun así no se declara el diagnóstico: no hay evaluación psiquiátrica ni instrumento estructurado aplicado, y la información proviene de una sola consulta.",
+    "confianza": "baja",
+    "antecedentes": "ninguno registrado",
+    "fuma": "No",
+    "consumo_sustancias": "No"
+  },
+  "PAC-011": {
+    "enfermedad_probable": "hipotiroidismo",
+    "nivel_riesgo": "bajo",
+    "comportamiento_observado": "Aumento de 12 kg en un año, fatiga y piel reseca conforman un cuadro compatible, reforzado por el antecedente familiar. La confianza es media y no alta por una razón concreta: no hay TSH ni T4 libre en el texto, y sin perfil tiroideo el diagnóstico no puede confirmarse. El IMC de 34 es un hallazgo adicional que requiere manejo propio.",
+    "confianza": "media",
+    "antecedentes": "antecedente familiar de hipotiroidismo; obesidad con IMC 34",
+    "fuma": "No",
+    "consumo_sustancias": "No"
+  },
+  "PAC-012": {
+    "enfermedad_probable": "indeterminado",
+    "nivel_riesgo": "medio",
+    "comportamiento_observado": "Cambios de comportamiento, aislamiento social y caída del rendimiento académico en un paciente de 19 años con consumo diario de marihuana desde hace 8 meses. La evidencia no permite discriminar entre trastorno por consumo de cannabis, un cuadro afectivo y un pródromo psicótico, y esa distinción cambia por completo la conducta a seguir. Requiere evaluación psiquiátrica especializada antes de nombrar la entidad. Riesgo medio por la edad y el patrón de consumo diario.",
+    "confianza": "baja",
+    "antecedentes": "consumo diario de marihuana desde hace 8 meses",
+    "fuma": "Sí",
+    "consumo_sustancias": "Sí"
+  }
+}

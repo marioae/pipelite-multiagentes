@@ -1,0 +1,12 @@
+{
+  "archivo": "data/output/Formulario_Salida_Historias_Propias.xlsx",
+  "filas_escritas": 3,
+  "clasificados": 3,
+  "fallidos": 0,
+  "verificacion_antifuga": "LIMPIO",
+  "celdas_escaneadas": 32,
+  "fuente": "Historias_Propias",
+  "track": "b",
+  "registros_entrada": 3,
+  "indeterminados": []
+}

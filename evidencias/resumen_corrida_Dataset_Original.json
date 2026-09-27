@@ -1,0 +1,19 @@
+{
+  "archivo": "data/output/Formulario_Salida_Dataset_Original.xlsx",
+  "filas_escritas": 12,
+  "clasificados": 12,
+  "fallidos": 0,
+  "verificacion_antifuga": "LIMPIO",
+  "celdas_escaneadas": 104,
+  "fuente": "Dataset_Original",
+  "track": "b",
+  "registros_entrada": 12,
+  "indeterminados": [
+    "PAC-003",
+    "PAC-004",
+    "PAC-006",
+    "PAC-008",
+    "PAC-010",
+    "PAC-012"
+  ]
+}

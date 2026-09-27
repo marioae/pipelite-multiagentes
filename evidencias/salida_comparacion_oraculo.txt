@@ -1,0 +1,23 @@
+CODIGO    CAMPO                  REFERENCIA                             ESTA CORRIDA                          
+----------------------------------------------------------------------------------------------------------------
+PAC-001   enfermedad_probable    diabetes tipo 2                        diabetes mellitus tipo 2              
+PAC-001   consumo_sustancias     No registrado                          No                                    
+PAC-005   enfermedad_probable    hipertensión arterial                  hipertensión arterial no controlada   
+PAC-005   nivel_riesgo           medio                                  alto                                  
+PAC-006   enfermedad_probable    artritis reumatoide                    indeterminado                         
+PAC-006   confianza              media                                  baja                                  
+PAC-006   consumo_sustancias     No registrado                          No                                    
+PAC-007   consumo_sustancias     Sí                                     No                                    
+PAC-009   enfermedad_probable    asma                                   asma mal controlada                   
+PAC-009   confianza              media                                  alta                                  
+PAC-011   consumo_sustancias     No registrado                          No                                    
+PAC-012   nivel_riesgo           bajo                                   medio                                 
+----------------------------------------------------------------------------------------------------------------
+Coincidencias: 48/60 (80%)
+Divergencias : 12 — justificadas en evidencias/comparacion_con_oraculo.md
+
+'indeterminado' en referencia: 5 -> ['PAC-003', 'PAC-004', 'PAC-008', 'PAC-010', 'PAC-012']
+  con confianza distinta de 'baja': 0 
+
+'indeterminado' en esta corrida: 6 -> ['PAC-003', 'PAC-004', 'PAC-006', 'PAC-008', 'PAC-010', 'PAC-012']
+  con confianza distinta de 'baja': 0 
